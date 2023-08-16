@@ -1,0 +1,42 @@
+body {
+  margin: 15px;
+  display: block;
+  flex-direction: column;
+  border-radius: 1px;
+  border: 100px;
+  padding: 25px;
+  text-align: center;
+
+  background: #a990af;
+}
+
+button,
+select {
+  height: 2em;
+  font-size: 1rem;
+  color: #0e0c0c;
+  border: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button:focus,
+select:focus {
+  outline: none;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em 0.75em;
+  text-align: center;
+}
+
+select {
+  padding: 0.25em 0.5em;
+}
